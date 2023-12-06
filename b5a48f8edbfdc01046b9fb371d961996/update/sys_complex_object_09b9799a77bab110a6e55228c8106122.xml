@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD45b9799a86bab110a863e8473596d522</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>b5a48f8edbfdc01046b9fb371d961996</scope_name>
+        <serialized_content>{"FlowDesigner:FD45b9799a86bab110a863e8473596d522":{"$COCollectionField":[{"resource_group":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"d5914227-8f40-4b7b-be87-70f3bd2d3234\"}"},"location":"String","location.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Location\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"0c32d106-988b-4c43-a6c1-0a8129ce1443\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"da645fec-be1d-4efa-8102-8bb35f425ea1\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"df34ab72-3098-430c-89e5-6cc628f9fb97\"}"},"properties":{"provisioningState":"String","provisioningState.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Provisioning State\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"205fedd1-6036-44d9-874f-78e342f9a07d\"}"}},"properties.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Properties\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"24ac9e3c-d2ae-484e-b4ea-4b9f9aa74009\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Resource Groups\",\"mandatory\":\"false\",\"child_name\":\"resource_group\",\"uiUniqueId\":\"3fb24230-9876-4954-a2b1-0ab620bfa724\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD45b9799a86bab110a863e8473596d522\",\"child_label\":\"Resource Group\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"077bc523-336b-42db-9dc3-a0555bb4435f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD45b9799a86bab110a863e8473596d522.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Resource Groups\",\"mandatory\":\"false\",\"child_name\":\"resource_group\",\"uiUniqueId\":\"3fb24230-9876-4954-a2b1-0ab620bfa724\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD45b9799a86bab110a863e8473596d522\",\"child_label\":\"Resource Group\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"077bc523-336b-42db-9dc3-a0555bb4435f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 09:47:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09b9799a77bab110a6e55228c8106122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD45b9799a86bab110a863e8473596d522</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Azure Resource Management Spoke" source="sn_azure_rm_spoke">b5a48f8edbfdc01046b9fb371d961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Resource Management Spoke">b5a48f8edbfdc01046b9fb371d961996</sys_scope>
+        <sys_update_name>sys_complex_object_09b9799a77bab110a6e55228c8106122</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 09:47:15</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Microsoft Azure Resource Management Spoke">b5a48f8edbfdc01046b9fb371d961996</claim_owner_scope>
+        <claim_timestamp>18c3da5ecd20000001</claim_timestamp>
+        <metadata_update_name>sys_complex_object_09b9799a77bab110a6e55228c8106122</metadata_update_name>
+        <previous_claim_app_version>1.1.3.202311334215505</previous_claim_app_version>
+        <previous_claim_name>Microsoft Azure Resource Management Spoke</previous_claim_name>
+        <previous_claim_scope>b5a48f8edbfdc01046b9fb371d961996</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 05:42:13</sys_created_on>
+        <sys_id>6c913e3b77b63110a6e55228c81061b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 05:42:13</sys_updated_on>
+    </sys_claim>
+</record_update>

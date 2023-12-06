@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_azure_rm_spoke.AzureResourceValidation</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AzureResourceValidation</name>
+        <script><![CDATA[var AzureResourceValidation = Class.create();
+AzureResourceValidation.prototype = {
+    initialize: function() {},
+    inputValidation: function(inputs) {
+        for (var key in inputs) {
+            if (inputs[key] == null || inputs[key].toString().trim() == "") {
+                throw new Error(key + " cannot be empty");
+            }
+        }
+    },
+	trimStringInputs: function(inputs) {
+        for (var key in inputs) {
+            if (inputs[key] && typeof inputs[key] == 'string') {
+                inputs[key] = inputs[key].trim();
+            }
+        }
+        return inputs;
+    },
+    type: 'AzureResourceValidation'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 08:56:16</sys_created_on>
+        <sys_id>30a876f31bba0c1003bc0ed7cc4bcb24</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>AzureResourceValidation</sys_name>
+        <sys_package display_value="Microsoft Azure Resource Management Spoke" source="sn_azure_rm_spoke">b5a48f8edbfdc01046b9fb371d961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Resource Management Spoke">b5a48f8edbfdc01046b9fb371d961996</sys_scope>
+        <sys_update_name>sys_script_include_30a876f31bba0c1003bc0ed7cc4bcb24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 11:28:38</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Microsoft Azure Resource Management Spoke">b5a48f8edbfdc01046b9fb371d961996</claim_owner_scope>
+        <claim_timestamp>18c3da5ed300000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_30a876f31bba0c1003bc0ed7cc4bcb24</metadata_update_name>
+        <previous_claim_app_version>1.1.3.202311334215505</previous_claim_app_version>
+        <previous_claim_name>Microsoft Azure Resource Management Spoke</previous_claim_name>
+        <previous_claim_scope>b5a48f8edbfdc01046b9fb371d961996</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 05:42:13</sys_created_on>
+        <sys_id>60913e3b77b63110a6e55228c81061b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 05:42:13</sys_updated_on>
+    </sys_claim>
+</record_update>
